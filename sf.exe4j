@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="5.0.1" transformSequenceNumber="2">
+  <directoryPresets config="D:/SaltedFish" />
+  <application name="sf9" distributionSourceDir="D:/JavaExport/sf9_lib">
+    <languages>
+      <principalLanguage id="en" customLocalizationFile="" />
+    </languages>
+  </application>
+  <executable name="sf9" type="2" iconSet="true" iconFile="hj.ico" executableDir="." redirectStderr="true" stderrFile="error.log" stderrMode="overwrite" redirectStdout="false" stdoutFile="output.log" stdoutMode="overwrite" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="true" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" checkConsoleParameter="true" globalSingleInstance="false" singleInstanceActivate="true" dpiAware="false" amd64="true">
+    <messageSet />
+    <versionInfo include="false" fileVersion="" fileDescription="" legalCopyright="" internalName="" productName="" companyName="" productVersion="" />
+  </executable>
+  <splashScreen show="true" width="0" height="0" bitmapFile="hj.png" windowsNative="true" textOverlay="false">
+    <text>
+      <statusLine x="20" y="20" text="" fontSize="8" fontColor="0,0,0" bold="false" />
+      <versionLine x="20" y="40" text="version %VERSION%" fontSize="8" fontColor="0,0,0" bold="false" />
+    </text>
+  </splashScreen>
+  <java mainClass="test7.Win_sf" vmParameters="-Dfile.encoding=utf-8 -Xms1024m -Xmx1024m" arguments="" allowVMPassthroughParameters="true" preferredVM="" bundleRuntime="true" minVersion="1.7" maxVersion="" allowBetaVM="true" jdkOnly="false">
+    <searchSequence>
+      <directory location="jdk1.7.0_80" />
+    </searchSequence>
+    <classPath>
+      <archive location="./sf9.jar" failOnError="false" />
+      <archive location="activation-1.1.jar" failOnError="false" />
+      <archive location="h2-1.4.196.jar" failOnError="false" />
+      <archive location="jacob-1.18.jar" failOnError="false" />
+      <archive location="javaee-api-7.0.jar" failOnError="false" />
+      <archive location="javax.mail-1.5.0.jar" failOnError="false" />
+      <archive location="javax.servlet.jsp.jstl-1.2.2.jar" failOnError="false" />
+      <archive location="jna-4.1.0.jar" failOnError="false" />
+      <archive location="jna-platform-4.1.0.jar" failOnError="false" />
+      <archive location="jsp-api-2.1.jar" failOnError="false" />
+      <archive location="jstl-api-1.2.jar" failOnError="false" />
+      <archive location="org.eclipse.swt.win32.win32.x86_64-4.3.jar" failOnError="false" />
+      <archive location="servlet-api-2.5.jar" failOnError="false" />
+      <archive location="slf4j-api-1.7.10.jar" failOnError="false" />
+      <archive location="vlcj-3.10.1.jar" failOnError="false" />
+    </classPath>
+    <nativeLibraryDirectories />
+  </java>
+  <includedFiles />
+  <unextractableFiles />
+</exe4j>
